@@ -1,0 +1,54 @@
+/* MainNavbar */
+
+.navbar-brand {
+  margin-left: 10px;
+}
+.nav-link {
+  margin-right: 10px;
+}
+
+/* CollectionCard */
+.invisible-button {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.1s, opacity 0.1s;
+}
+
+.position-relative:hover .invisible-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* JoinCard */
+
+.custom-input {
+  margin-left: 53px;
+  border: none;
+  border-bottom: 1px solid slategray;
+  outline: none;
+  border-radius: 3%;
+}
+.join-card-container {
+  margin-left: 40px;
+}
+
+/* EndNav */
+
+.no-bullets {
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.no-bullets li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.no-bullets li a {
+  text-decoration: none;
+  color: inherit;
+}
+/* ShowCaseCards */
+.box-space {
+  letter-spacing: 1px;
+}
